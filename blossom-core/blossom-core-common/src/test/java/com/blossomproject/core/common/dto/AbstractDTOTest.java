@@ -74,7 +74,7 @@ public class AbstractDTOTest {
     assertEquals(0, result);
   }
 
-  class AbstractDTOImpl extends AbstractDTO {
+  private class AbstractDTOImpl extends AbstractDTO {
     public AbstractDTOImpl() {
     }
   }
